@@ -29,8 +29,8 @@ root=tree.getroot()
 # print(type(root[378][2].attrib["name"]))
 
 
-
-for i in range(300000,400000):
+# Going to push first 5 Lakh Data into the MySQL DataBase
+for i in range(0,500000):
     try:
         title=root[i][0].text
         try:
@@ -134,4 +134,5 @@ for i in range(300000,400000):
     
 
 # print("Inserted")
+
 
